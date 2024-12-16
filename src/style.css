@@ -1,0 +1,98 @@
+.body {
+  background-color: #eceaea;
+  min-height: 110vh;
+}
+.font {
+  font-family: "Exo 2", sans-serif;
+}
+.nav-style {
+  max-height: 70px;
+  overflow: hidden;
+  background-color: antiquewhite;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+.logo {
+  max-width: 100px;
+  min-width: 50px;
+  max-height: 70px;
+}
+.logo-text {
+  font-weight: bold;
+  color: orangered;
+}
+.logo-text::first-letter{
+  color: orange;
+}
+.search-input {
+  border: none;
+  width: 90%;
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-btn {
+  border: none;
+  border-radius: 15px;
+  padding: 4px 15px;
+  font-weight: bold;
+  color: orange;
+  background-color: black;
+  margin: 0 15px;
+}
+.main {
+  position: relative;
+  top: 70px ;
+}
+.viwe {
+  min-height: 83vh;
+}
+.paginat li {
+  border: 1px solid orange;
+  border-right: none;
+  padding: 4px 15px;
+  color: gray;
+}
+.paginat li:last-child {
+  border: 1px solid orange;
+}
+.paginat a{
+  text-decoration: none;
+  color: gray;
+}
+.paginat li:hover {
+  background-color: orange;
+  color: white;
+}
+.active {
+  color: white;
+  background-color: orange;
+}
+.paginat li:hover a {
+  color: white;
+}
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  left: -100%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.card:hover .card-overlay {
+  left: 0;
+}
+.card-body {
+  background-color: aliceblue;
+  min-height: 300px;
+}
+.movie-btn {
+  width: 150px;
+  background-color: orangered;
+  color: white;
+}
+.movie-btn:hover {
+  background-color: rgba(190, 51, 0, 0.781);
+}
